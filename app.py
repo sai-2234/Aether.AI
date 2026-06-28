@@ -13,7 +13,7 @@ SERVER_API_KEY = os.environ.get("NVIDIA_API_KEY", "")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY", "")
 
 INVOKE_URL    = "https://integrate.api.nvidia.com/v1/chat/completions"
-DEFAULT_MODEL = "meta/llama-3.3-70b-instruct"
+DEFAULT_MODEL = "mistralai/mistral-large-latest"
 
 # ── Base system prompt ─────────────────────────────────────────
 BASE_PROMPT = """You are Aether — an elite AI assistant engineered by Sai Chatre in 2026.
